@@ -1,0 +1,56 @@
+:root {
+  --First: #212121;
+  --second: #757575;
+  --third: #ffffff;
+  --link: #2196f3;
+}
+body {
+  color: var(--second);
+}
+h2,
+h3 {
+  color: var(--First);
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.header-logo {
+  color: var(--link);
+}
+.logo-studio {
+  color: #000000;
+}
+.first {
+  color: var(--First);
+}
+.first:hover,
+.first:focus {
+  color: var(--link);
+}
+.content-text {
+  color: var(--third);
+  border: 1px solid #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.invisible {
+  color: var(--third);
+}
+.nav-email,
+.nav-tel {
+  color: var(--second);
+}
+.nav-tel:hover,
+.nav-tel:focus {
+  color: var(--link);
+}
+.nav-email:hover,
+.nav-email:focus {
+  color: var(--link);
+}
+.color-white {
+  color: var(--third);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
