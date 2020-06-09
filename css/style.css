@@ -1,3 +1,11 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
 :root {
   --main-color: #212121;
   --second-color: #757575;
