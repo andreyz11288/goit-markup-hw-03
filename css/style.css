@@ -273,11 +273,30 @@ a {
   margin-top: 50px;
   width: 370px;
 }
+.work-desktop {
+  display: inline-block;
+  width: 370px;
+  height: 294px;
+  background-image: url(../images/box1.jpg);
+}
+.work-mobile {
+  display: inline-block;
+  width: 370px;
+  height: 294px;
+  background-image: url(../images/box2.jpg);
+}
+.work-design {
+  display: inline-block;
+  width: 370px;
+  height: 294px;
+  background-image: url(../images/box3.jpg);
+}
 .work li:not(:first-child) {
   margin-left: 30px;
 }
 .prof {
   display: block;
+  margin-top: 220px;
   padding-top: 25px;
   padding-bottom: 25px;
   font-family: Roboto;
@@ -292,18 +311,19 @@ a {
   background: rgba(47, 48, 58, 0.8);
 }
 
-.work-design:hover,
-.work-design:focus {
+.desing:hover,
+.design:focus {
   background-color: var(--link);
   color: var(--black-color);
 }
-.work-mobile:hover,
-.work-mobile:focus {
+.mobile:hover,
+.mobile:focus {
   background-color: var(--link);
   color: var(--black-color);
 }
-.work-desktop:hover,
-.work-desktop:focus {
+
+.desktop:hover,
+.desktop:focus {
   background-color: var(--link);
   color: var(--black-color);
 }
@@ -361,11 +381,14 @@ a {
   letter-spacing: 0.03em;
   color: #757575;
 }
-.team-john:hover,
-.team-john:focus {
+.team-john {
+  display: inline-block;
+}
+.team li:hover,
+.team li:focus {
   background-color: var(--link);
 }
-.team-marta:hover,
+/* .team-marta:hover,
 .team-marta:focus {
   background-color: var(--link);
 }
@@ -376,7 +399,7 @@ a {
 .team-martin:hover,
 .team-martin:focus {
   background-color: var(--link);
-}
+} */
 
 /* Clients */
 
