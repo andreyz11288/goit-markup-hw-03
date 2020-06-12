@@ -537,14 +537,40 @@ a {
 }
 
 /* Second page */
+
+.main-portfolio {
+  margin-top: 93px;
+}
+.section-filter {
+  display: flex;
+  margin-left: 280px;
+  width: 612px;
+  outline: 2px solid red;
+}
+.section-filter > li:not(:first-child) {
+  margin-left: 8px;
+}
 .filter {
-  color: var(--main-color);
+  padding: 6px 22px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  border: 0px;
+
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
 }
 .filter:hover,
 .filter:focus {
   color: var(--white-color);
   background-color: var(--link);
 }
+
 .hov-text {
   width: 323px;
   height: 168;
@@ -583,6 +609,7 @@ footer {
 }
 .social > li {
   width: 44px;
+  margin-bottom: 24px;
 }
 .social > li:first-child {
   margin-left: 32px;
