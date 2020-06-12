@@ -17,16 +17,10 @@ html {
   --black-color: #000000;
 }
 
-.body {
-  /* font-family: Roboto; */
-  /* color: var(--second-color); */
-}
 .container {
   width: 1170px;
   margin-left: auto;
   margin-right: auto;
-  /* padding-left: 215px;
-  padding-right: 215px; */
   /* outline: 2px solid red; */
 }
 .container2 {
@@ -58,16 +52,15 @@ a {
 .portfolio,
 .contact {
   display: block;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
   padding-top: 32px;
   padding-bottom: 32px;
 }
 
 .container-header {
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
   display: flex;
-  /* flex-direction: row; */
-  /* padding-bottom: 32px; */
+  border-bottom: 1px solid #ececec;
 }
 .header-logo {
   padding-top: 24px;
@@ -76,8 +69,6 @@ a {
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
-
-  /* identical to box height */
   letter-spacing: 0.03em;
 }
 .header-logo,
@@ -96,8 +87,6 @@ a {
 }
 .nav-menu {
   display: flex;
-  /* flex-direction: row; */
-  /* padding-top: 32px; */
   margin-left: 85px;
   font-family: Roboto;
   font-style: normal;
@@ -105,13 +94,10 @@ a {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-
   color: #212121;
 }
 .section-nav-contact {
   display: flex;
-  /* flex-direction: row; */
-  /* padding-top: 32px; */
   margin-left: 305px;
   font-family: Roboto;
   font-style: normal;
@@ -119,7 +105,6 @@ a {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-
   color: #757575;
 }
 .nav-menu > li:not(:first-child) {
@@ -131,6 +116,7 @@ a {
 .nav-menu-first:hover,
 .nav-menu-first:focus {
   color: var(--link);
+  /* border-bottom: 1px solid var(--link); */
 }
 .nav-tel {
   margin-left: 30px;
@@ -143,7 +129,7 @@ a {
   color: var(--second-color);
   padding-top: 32px;
   padding-bottom: 32px;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 .nav-email {
   min-width: 161px;
@@ -159,11 +145,8 @@ a {
 }
 /* Hero */
 
-.header-backgroup {
-  /* padding-top: 32px; */
-}
 .overlay {
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
   width: 1600px;
   height: 600px;
   background-image: url(../images/header-img.jpg);
@@ -182,13 +165,7 @@ a {
   font-size: 16px;
   line-height: 30px;
   border: 0px;
-
-  /* identical to box height, or 187% */
-  /* display: flex;
-  align-items: center;
-  text-align: center; */
   letter-spacing: 0.06em;
-
   color: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -215,7 +192,6 @@ a {
   padding-top: 200px;
   text-align: center;
   color: var(--white-color);
-  /* border: 1px solid var(--black-color); */
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 /* Features */
@@ -235,7 +211,6 @@ a {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   color: #212121;
 }
 .features p {
@@ -245,14 +220,11 @@ a {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
-  /* or 171% */
-
   letter-spacing: 0.03em;
-
   color: #757575;
 }
 .section-features {
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
   margin-top: 98px;
 }
 .features-link {
@@ -276,7 +248,7 @@ a {
 }
 /* What are we doing */
 .section-work {
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
   margin-top: 94px;
 }
 .work-desktop,
@@ -291,9 +263,7 @@ a {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
-
   letter-spacing: 0.03em;
-
   color: #212121;
 }
 .work {
@@ -310,8 +280,6 @@ a {
   display: block;
   padding-top: 25px;
   padding-bottom: 25px;
-  /* width: 370px;
-  height: 70px; */
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -320,10 +288,8 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  /* align-items: center; */
   color: #ffffff;
   background: rgba(47, 48, 58, 0.8);
-  /* margin-top: -74px; */
 }
 
 .work-design:hover,
@@ -351,15 +317,13 @@ a {
 .team {
   display: flex;
   margin-top: 50px;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 .team > li:not(:first-child) {
   margin-left: 30px;
 }
 .team > li {
   background: #ffffff;
-  /* material shadow v1 */
-
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12);
   border-radius: 0px 0px 4px 4px;
@@ -373,7 +337,6 @@ a {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-
   color: #212121;
 }
 .team h3 {
@@ -383,11 +346,8 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
-
   text-align: center;
   letter-spacing: 0.03em;
-
   color: #212121;
 }
 .team p {
@@ -397,11 +357,8 @@ a {
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
-
   text-align: center;
   letter-spacing: 0.03em;
-
   color: #757575;
 }
 .team-john:hover,
@@ -435,7 +392,7 @@ a {
 }
 .section-clients {
   margin-top: 94px;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 .section-clients > h2 {
   font-family: Roboto;
@@ -445,7 +402,6 @@ a {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-
   color: #212121;
 }
 .clients a:hover,
@@ -457,11 +413,23 @@ a {
 .footer {
   display: flex;
   margin-top: 94px;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
+}
+.footer-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
 }
 .display-footer > a {
   display: block;
   padding-top: 45px;
+  margin-bottom: 28px;
+}
+.display-footer {
+  margin-bottom: 28px;
 }
 #address > ul {
   width: 231px;
@@ -474,10 +442,7 @@ a {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-
-  /* or 171% */
   letter-spacing: 0.03em;
-
   color: rgba(255, 255, 255, 0.6);
 }
 #address li:first-child {
@@ -486,10 +451,7 @@ a {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-
-  /* or 171% */
   letter-spacing: 0.03em;
-
   color: #ffffff;
 }
 .join-in > h3 {
@@ -503,7 +465,6 @@ a {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   color: #ffffff;
 }
 .mailing {
@@ -516,11 +477,11 @@ a {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   color: #ffffff;
 }
 .goit {
   display: block;
+  width: 1170px;
   padding-top: 18px;
   padding-bottom: 21px;
   font-family: Roboto;
@@ -528,16 +489,17 @@ a {
   font-weight: normal;
   font-size: 12px;
   line-height: 24px;
-
-  /* or 200% */
   text-align: center;
   letter-spacing: 0.03em;
-
   color: rgba(255, 255, 255, 0.4);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 /* Second page */
-
+.portfolio-header {
+  width: 1600px;
+  border-bottom: 1px solid #ececec;
+}
 .main-portfolio {
   margin-top: 93px;
 }
@@ -545,7 +507,7 @@ a {
   display: flex;
   margin-left: 280px;
   width: 612px;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 .section-filter > li:not(:first-child) {
   margin-left: 8px;
@@ -558,11 +520,8 @@ a {
   font-size: 16px;
   line-height: 26px;
   border: 0px;
-
-  /* identical to box height, or 162% */
   text-align: center;
   letter-spacing: 0.03em;
-
   color: #212121;
 }
 .filter:hover,
@@ -570,20 +529,55 @@ a {
   color: var(--white-color);
   background-color: var(--link);
 }
+.main-content li {
+  margin-top: 34px;
+  width: 370px;
+}
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  /* outline: 2px solid red; */
+  justify-content: space-between;
+}
+
+.main-h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  margin-top: 20px;
+  margin-left: 24px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.blackout > p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 4px;
+  margin-left: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
 
 .hov-text {
-  width: 323px;
-  height: 168;
+  display: inline-block;
   font-family: Roboto;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.55;
   letter-spacing: 0.03em;
+  text-align: start;
   color: var(--third);
-  background-color: var(--link);
+  width: 322px;
+  height: 168px;
+  background-color: rgba(33, 150, 243, 0.9);
 }
-.main-contant a > p {
+.main-content a > p {
   color: var(--second-color);
 }
 
