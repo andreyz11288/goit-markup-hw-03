@@ -464,6 +464,7 @@ a {
   padding-top: 45px;
 }
 #address > ul {
+  width: 231px;
   margin-top: 8px;
 }
 #address li:not(:first-child) {
@@ -517,6 +518,22 @@ a {
   text-transform: uppercase;
 
   color: #ffffff;
+}
+.goit {
+  display: block;
+  padding-top: 18px;
+  padding-bottom: 21px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+
+  /* or 200% */
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.4);
 }
 
 /* Second page */
@@ -580,6 +597,30 @@ footer {
 }
 .social a:hover,
 .social a:focus {
+  padding: 12px;
+  color: var(--white-color);
+  background-color: var(--link);
+  border-radius: 100px;
+}
+.social-footer {
+  display: flex;
+  margin-top: 20px;
+}
+.social-footer > li {
+  width: 44px;
+}
+.social-footer a {
+  padding: 12px;
+  color: var(--second-color);
+}
+.social-footer > li:not(:first-child) {
+  margin-left: 10px;
+}
+.social-footer > li:first-child {
+  margin-left: 69px;
+}
+.social-footer a:hover,
+.social-footer a:focus {
   padding: 12px;
   color: var(--white-color);
   background-color: var(--link);
