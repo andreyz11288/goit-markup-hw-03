@@ -1,11 +1,11 @@
-html {
+/* html {
   box-sizing: border-box;
 }
 *,
 *::after,
 *::before {
   box-sizing: inherit;
-}
+} */
 :root {
   --main-color: #212121;
   --second-color: #757575;
@@ -256,7 +256,7 @@ a {
 .work-design {
   display: block;
 }
-.section-work > h2 {
+.section-work h2 {
   text-align: center;
   font-family: Roboto;
   font-style: normal;
@@ -417,7 +417,7 @@ a {
   margin-top: 94px;
   /* outline: 2px solid red; */
 }
-.section-clients > h2 {
+.section-clients h2 {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -433,11 +433,15 @@ a {
 }
 
 /* Footer */
+.section-footer {
+  margin-top: 94px;
+  background-color: var(--bgp-footer);
+}
 .footer {
   display: flex;
-  margin-top: 94px;
   /* outline: 2px solid red; */
 }
+
 .footer-logo {
   font-family: Raleway;
   font-style: normal;
@@ -452,7 +456,7 @@ a {
   margin-bottom: 28px;
 }
 .display-footer {
-  margin-bottom: 28px;
+  padding-bottom: 28px;
 }
 #address > ul {
   width: 231px;
@@ -492,7 +496,7 @@ a {
 }
 .mailing {
   padding-top: 57px;
-  margin-left: 94px;
+  padding-left: 94px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -602,10 +606,6 @@ a {
 }
 .main-content a > p {
   color: var(--second-color);
-}
-
-footer {
-  background-color: var(--bgp-footer);
 }
 
 #address a {
